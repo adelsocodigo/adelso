@@ -3,38 +3,300 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Adelso Suarez - Presentación</title>
+  <meta name="description" content="Portfolio profesional de Adelso Suarez. Desarrollo web para autónomos, pequeños negocios y profesionales técnicos. Landing pages, SEO básico, formularios, WhatsApp y automatizaciones sencillas.">
+  <title>Adelso Suarez | Desarrollo web para pequeños negocios</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Adelso Suarez</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="conocimientos.html">Conocimientos</a></li>
-      </ul>
-    </nav>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="index.html#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">AS</span>
+        <span>Adelso Suarez</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span>Menú</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="index.html#proyectos">Proyectos</a></li>
+          <li><a href="conocimientos.html">Conocimientos</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <main>
-    <section id="presentacion">
-      <img id="miImagen1" src="assets/img/fot carnet.jpg" alt="Imagen de Adelso Suarez" class="fade-in">
-      
+
+  <main id="contenido">
+    <section id="inicio" class="hero section-dark">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Portfolio profesional</p>
+          <h1>Adelso Suarez</h1>
+          <p class="hero-subtitle">Desarrollo web para pequeños negocios</p>
+          <p class="hero-text">
+            Ayudo a autónomos, pequeños negocios y profesionales técnicos a tener una presencia digital clara,
+            rápida y profesional mediante páginas web modernas, SEO básico, formularios, WhatsApp y
+            automatizaciones sencillas.
+          </p>
+          <div class="hero-actions" aria-label="Acciones principales">
+            <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+            <a class="button button-secondary" href="#contacto">Contactar</a>
+          </div>
+        </div>
+
+        <div class="hero-media" aria-label="Perfil de Adelso Suarez">
+          <img src="assets/img/fot carnet.jpg" alt="Retrato profesional de Adelso Suarez">
+          <div class="hero-note">
+            <strong>Webs claras, rápidas y fáciles de mantener</strong>
+            <span>HTML, CSS, JavaScript, SEO básico y enfoque práctico para negocios reales.</span>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="valores">
-      <h2>Mis Actitudes y Valores</h2>
-      <ul>
-        <li>Responsabilidad</li>
-        <li>Trabajo en equipo</li>
-        <li>Creatividad</li>
-        <li>Perseverancia</li>
-      </ul>
+
+    <section id="sobre-mi" class="section">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">Sobre mí</p>
+          <h2>Experiencia técnica aplicada al mundo digital</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            Soy un profesional técnico con experiencia en educación, electricidad industrial y trabajo autónomo en
+            España. Actualmente estoy orientando mi carrera hacia el desarrollo web, la automatización y el uso
+            práctico de inteligencia artificial para crear soluciones digitales útiles para pequeños negocios y
+            profesionales independientes.
+          </p>
+          <p>
+            Mi experiencia combina capacidad técnica, comunicación, resolución de problemas y gestión de proyectos
+            digitales reales.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Servicios</p>
+          <h2>Soluciones web pensadas para generar confianza</h2>
+          <p>
+            Desarrollo sitios sencillos de entender, rápidos de cargar y preparados para que un cliente pueda contactar
+            sin fricción.
+          </p>
+        </div>
+
+        <div class="card-grid service-grid">
+          <article class="card">
+            <h3>Landing pages profesionales</h3>
+            <p>Páginas enfocadas en presentar un servicio, captar contactos y explicar una propuesta con claridad.</p>
+          </article>
+          <article class="card">
+            <h3>Webs para pequeños negocios</h3>
+            <p>Presencia online ordenada para restaurantes, talleres, comercios, barberías y servicios locales.</p>
+          </article>
+          <article class="card">
+            <h3>Webs para profesionales técnicos</h3>
+            <p>Webs sobrias para electricistas, instaladores, mantenimiento, consultores y perfiles especializados.</p>
+          </article>
+          <article class="card">
+            <h3>SEO básico</h3>
+            <p>Estructura, títulos, descripciones y contenidos preparados para mejorar la visibilidad inicial.</p>
+          </article>
+          <article class="card">
+            <h3>Formularios de contacto</h3>
+            <p>Canales simples para recibir solicitudes, presupuestos y mensajes desde la propia web.</p>
+          </article>
+          <article class="card">
+            <h3>Botón de WhatsApp</h3>
+            <p>Acceso directo para convertir visitas en conversaciones reales desde móvil y escritorio.</p>
+          </article>
+          <article class="card">
+            <h3>Redacción web</h3>
+            <p>Textos claros, orientados al cliente y adaptados al servicio que ofrece cada negocio.</p>
+          </article>
+          <article class="card">
+            <h3>Automatizaciones sencillas</h3>
+            <p>Pequeños flujos para ahorrar tiempo en contacto, organización de leads y tareas repetitivas.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Proyectos</p>
+          <h2>Trabajo real y demos orientadas a clientes</h2>
+          <p>
+            Cada proyecto está pensado para mostrar un tipo de solución digital útil para profesionales y negocios.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card featured-project">
+            <div>
+              <span class="tag">Proyecto real</span>
+              <h3>Radio Gótica</h3>
+              <p>
+                Proyecto digital musical enfocado en rock, metal, cultura alternativa, conciertos y contenidos
+                especializados. Incluye desarrollo web, redacción de contenidos, comunicación con promotoras, SEO
+                básico, gestión de marca digital y presencia online.
+              </p>
+            </div>
+            <a class="text-link" href="https://radiogotica.com" target="_blank" rel="noopener noreferrer">
+              Visitar radiogotica.com
+            </a>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Demo profesional</span>
+            <h3>Demo web para electricista</h3>
+            <p>
+              Demo orientada a profesionales técnicos, instalaciones eléctricas, mantenimiento y servicios locales.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Demo local</span>
+            <h3>Demo web para negocio local</h3>
+            <p>
+              Demo para restaurantes, barberías, talleres o pequeños negocios que necesitan una presencia digital clara
+              y confiable.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <span class="tag">Demo musical</span>
+            <h3>Demo web para artista o banda</h3>
+            <p>
+              Demo pensada para artistas, bandas o proyectos musicales que necesitan mostrar biografía, fechas, música,
+              prensa y contacto.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="conocimientos" class="section section-muted">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Conocimientos</p>
+          <h2>Una base técnica amplia y conectada</h2>
+          <p>
+            Desarrollo web, experiencia eléctrica y comunicación se combinan para entender mejor las necesidades de
+            negocios técnicos y proyectos independientes.
+          </p>
+        </div>
+
+        <div class="knowledge-grid">
+          <article class="knowledge-block">
+            <h3>Desarrollo web</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Git y GitHub</li>
+              <li>SEO básico</li>
+              <li>Netlify</li>
+            </ul>
+          </article>
+          <article class="knowledge-block">
+            <h3>Electricidad y técnica</h3>
+            <ul>
+              <li>Electricidad industrial</li>
+              <li>Instalaciones eléctricas</li>
+              <li>Mantenimiento eléctrico</li>
+              <li>Motores eléctricos</li>
+              <li>Sistemas de control</li>
+              <li>Diagnóstico de averías</li>
+            </ul>
+          </article>
+          <article class="knowledge-block">
+            <h3>Comunicación y gestión</h3>
+            <ul>
+              <li>Educación</li>
+              <li>Redacción web</li>
+              <li>Gestión de contenidos</li>
+              <li>Comunicación digital</li>
+              <li>Atención al cliente</li>
+              <li>Planificación</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="center-action">
+          <a class="button button-outline" href="conocimientos.html">Ver conocimientos ampliados</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="caso-radio-gotica" class="section case-study section-dark">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">Caso de estudio</p>
+          <h2>Radio Gótica como laboratorio digital</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            Radio Gótica es un proyecto real usado como laboratorio digital, donde se aplican desarrollo web, contenido,
+            comunicación, SEO básico, marca y automatización.
+          </p>
+          <p>
+            El proyecto permite probar decisiones de estructura, redacción, posicionamiento, calendario editorial y
+            relación con promotoras dentro de un entorno activo y medible.
+          </p>
+          <a class="button button-secondary" href="https://radiogotica.com" target="_blank" rel="noopener noreferrer">
+            Ver Radio Gótica
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section contact-section">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Hablemos de tu próxima web</h2>
+          <p>
+            Si necesitas una página web profesional, clara y orientada a generar confianza, puedes contactarme.
+          </p>
+          <a class="button button-primary" href="mailto:contacto@radiogotica.com">Enviar correo</a>
+        </div>
+
+        <address class="contact-card">
+          <a href="mailto:contacto@radiogotica.com">
+            <span>Email</span>
+            contacto@radiogotica.com
+          </a>
+          <a href="https://radiogotica.com" target="_blank" rel="noopener noreferrer">
+            <span>Web</span>
+            radiogotica.com
+          </a>
+          <a href="https://www.linkedin.com/in/adelso-suarez/" target="_blank" rel="noopener noreferrer">
+            <span>LinkedIn</span>
+            linkedin.com/in/adelso-suarez
+          </a>
+        </address>
+      </div>
     </section>
   </main>
-  <footer>
-    <p>&copy; 2024 Adelso Suarez</p>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span data-current-year>2026</span> Adelso Suarez. Portafolio profesional.</p>
+      <a href="#inicio">Volver arriba</a>
+    </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
-

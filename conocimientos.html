@@ -1,52 +1,183 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conocimientos</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conocimientos de Adelso Suarez en desarrollo web, electricidad industrial, educación, comunicación digital y gestión de contenidos para proyectos profesionales.">
+  <title>Conocimientos | Adelso Suarez</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <h1>Adelso Suarez</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="conocimientos.html">Conocimientos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="content-wrapper">
-            <section id="conocimientos">
-                <button onclick="cambiarAdministracion()">Administración</button>
-                <button onclick="cambiarInformatica()">Informática</button>
-                <button onclick="cambiarElectricidad()">Electricidad</button>
-            </section>
-            <section id="presentacion">
-                <img id="miImagen" src="assets/img/programacion1.jpg" alt="Programacion" class="fade-in">
-                <div id="miParrafo">
-                    <h2>Nunca pares de Aprender</h2>
-                    <p>A lo largo de mi trayectoria, he adquirido
-                        conocimientos profundos en tecnologías de la información, gestión de proyectos y administración
-                        empresarial. Esta versatilidad me ha permitido enfrentar con éxito una amplia gama de desafíos,
-                        desde la creación y mantenimiento de infraestructuras tecnológicas hasta la implementación de
-                        soluciones eficientes para optimizar procesos operativos. Mi capacidad para aprender de forma
-                        autónoma y mi pasión por la mejora continua me han llevado a dominar herramientas y tecnologías
-                        de vanguardia, así como a desarrollar una fuerte capacidad de análisis y resolución de
-                        problemas. Gracias a esta combinación de habilidades, soy capaz de integrarme rápidamente en
-                        equipos multidisciplinarios, contribuir de manera significativa a los objetivos organizacionales
-                        y adaptarme con facilidad a los cambios y demandas del mercado actual. </p>
-                </div>
-            </section>
-        </div>
-    </main>
-    <footer>
-        <p>&copy; 2024 Adelso Suarez</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
+  <header class="site-header">
+    <div class="nav-container">
+      <a class="brand" href="index.html#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true">AS</span>
+        <span>Adelso Suarez</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span>Menú</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="index.html#inicio">Inicio</a></li>
+          <li><a href="index.html#sobre-mi">Sobre mí</a></li>
+          <li><a href="index.html#servicios">Servicios</a></li>
+          <li><a href="index.html#proyectos">Proyectos</a></li>
+          <li><a href="conocimientos.html" aria-current="page">Conocimientos</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="page-hero section-dark">
+      <div class="container page-hero-grid">
+        <div>
+          <p class="eyebrow">Conocimientos</p>
+          <h1>Perfil técnico con visión digital</h1>
+          <p>
+            La experiencia de Adelso Suarez conecta desarrollo web, electricidad industrial, educación y comunicación
+            para crear soluciones digitales claras, prácticas y orientadas a clientes reales.
+          </p>
+        </div>
+        <img src="assets/img/programacion1.jpg" alt="Mesa de trabajo con equipo de programación">
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Áreas principales</p>
+          <h2>Conocimientos organizados por aplicación profesional</h2>
+          <p>
+            Esta base permite entender tanto la parte técnica de una web como el lenguaje de negocios, instalaciones y
+            servicios profesionales.
+          </p>
+        </div>
+
+        <div class="knowledge-detail-grid">
+          <article class="knowledge-panel">
+            <img src="assets/img/programacion.jpg" alt="Pantalla con código de programación">
+            <div>
+              <h3>Desarrollo web</h3>
+              <p>
+                Creación de páginas rápidas, responsivas y fáciles de mantener con tecnologías sencillas y estables.
+              </p>
+              <ul>
+                <li>HTML semántico</li>
+                <li>CSS responsive</li>
+                <li>JavaScript básico e interacciones ligeras</li>
+                <li>Git y GitHub para control de versiones</li>
+                <li>SEO básico y estructura de contenidos</li>
+                <li>Publicación y mantenimiento en Netlify</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="knowledge-panel">
+            <img src="assets/img/electricista.jpg" alt="Trabajo técnico de electricidad industrial">
+            <div>
+              <h3>Electricidad y técnica</h3>
+              <p>
+                Experiencia en entornos técnicos donde importan la precisión, el diagnóstico y la seguridad del trabajo.
+              </p>
+              <ul>
+                <li>Electricidad industrial</li>
+                <li>Instalaciones eléctricas</li>
+                <li>Mantenimiento eléctrico</li>
+                <li>Motores eléctricos</li>
+                <li>Sistemas de control</li>
+                <li>Diagnóstico de averías</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="knowledge-panel">
+            <img src="assets/img/administracion.png" alt="Gestión, comunicación y administración de proyectos">
+            <div>
+              <h3>Comunicación y gestión</h3>
+              <p>
+                Capacidad para explicar ideas, ordenar información y acompañar proyectos desde la conversación inicial
+                hasta la entrega.
+              </p>
+              <ul>
+                <li>Educación y formación</li>
+                <li>Redacción web</li>
+                <li>Gestión de contenidos</li>
+                <li>Comunicación digital</li>
+                <li>Atención al cliente</li>
+                <li>Planificación de proyectos</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">Enfoque</p>
+          <h2>Una combinación útil para pequeños negocios</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            El objetivo no es crear webs complicadas, sino soluciones que comuniquen bien, carguen rápido y ayuden a una
+            persona o negocio a ser encontrado y contactado con facilidad.
+          </p>
+          <p>
+            La experiencia técnica aporta criterio para proyectos de electricistas, instaladores, mantenimiento y otros
+            profesionales que necesitan una web seria, comprensible y orientada al servicio.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section case-study section-dark">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">Proyecto aplicado</p>
+          <h2>Radio Gótica como aprendizaje continuo</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            Radio Gótica funciona como proyecto real y laboratorio digital. En él se aplican desarrollo web, redacción
+            de contenidos, SEO básico, comunicación con promotoras, gestión de marca y mejora continua.
+          </p>
+          <a class="button button-secondary" href="https://radiogotica.com" target="_blank" rel="noopener noreferrer">
+            Visitar Radio Gótica
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-strip">
+      <div class="container contact-strip-content">
+        <div>
+          <p class="eyebrow">Próximo paso</p>
+          <h2>Convertir conocimiento en una web profesional</h2>
+          <p>
+            Si necesitas una página clara para presentar tus servicios, recibir contactos y transmitir confianza,
+            podemos trabajar una solución sencilla y efectiva.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:contacto@radiogotica.com">Contactar por email</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>&copy; <span data-current-year>2026</span> Adelso Suarez. Portafolio profesional.</p>
+      <a href="index.html#inicio">Volver al inicio</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
